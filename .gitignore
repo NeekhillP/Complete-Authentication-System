@@ -1,0 +1,67 @@
+\n+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+vendor/
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.seed
+
+# Build and coverage output
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+
+# Caches and temporary files
+.cache/
+.tmp/
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# Database and local application data
+*.sqlite
+*.sqlite3
+*.db
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Package-manager and framework caches
+.npm/
+.yarn/
+.pnp.*
+.next/
+.nuxt/
+.turbo/
+
+# Local certificates and generated files
+certs/
+secrets/
